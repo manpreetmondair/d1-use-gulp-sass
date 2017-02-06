@@ -1,0 +1,129 @@
+
+$navcolor: rgba(0,0,0,.5);
+$backimage: url('/img/background.jpg');
+$textcolor: white;
+$headercolor: rgb(64, 131, 61);
+$columncenter: #F8F8F8;
+$headercolor1: rgb(32, 52, 116);
+$headercolor2: black;
+$lightgreen: lightgreen;
+$textfontsize: 20px;
+$lightblue: lightblue;
+$dimgrey: dimgrey;
+$pricesize: 70px;
+$bottomtext: rgba(255,255,255,.5);
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+}
+
+@import 'topnav';
+@import 'imagearea';
+
+main {
+    margin: 0, auto;
+    margin-bottom: 10px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.deals,
+.information {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+.pricetag {
+    text-align: center;
+    padding: 50px 10px 50px 10px;
+    color: $textcolor;
+    text-shadow: .25px .25px;
+
+    &.pricetag-blue {
+        background: $headercolor;
+    }
+
+    &.pricetag-green {
+        background: $headercolor1;
+    }
+
+    &.pricetag-black {
+        background: $headercolor2;
+    }
+}
+
+.pricecenter {
+    margin: 0 auto;
+    background: $columncenter;  
+    text-align: center;
+    border: 1px solid #e4e4e4;
+    padding: .25px;
+    color: $navcolor;
+
+    div {
+        padding: 10px;
+    }
+
+    .choose {
+        background: $textcolor;
+        margin: 0 auto;
+        border: 1px solid #e4e4e4;
+        padding: 10px;
+
+        button {
+            border-radius: 25px;
+            background: $textcolor;
+            border-style: solid;
+            border-width: 1px;
+            padding: 10px;
+        }
+    }
+}
+
+footer {
+    background: $headercolor2;
+    text-align: center;
+    color: $textcolor;
+    padding: 20px;
+}
+
+.lightgreen {
+    color: $lightgreen;
+    font-size: $textfontsize;
+}
+
+.lightblue{
+    color: $lightblue;
+    font-size: $textfontsize;
+}
+
+.lightgrey{
+    color: $dimgrey;
+    font-size: $textfontsize;
+}
+
+.price{
+    font-size: $pricesize;
+    
+}
+
+.col1
+{
+     line-height: 170%;
+}
+
+.text-gray {
+   color: $bottomtext;
+}
+ 
+.changecolor{
+    color: $navcolor;
+}
