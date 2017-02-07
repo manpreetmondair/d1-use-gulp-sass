@@ -23,6 +23,7 @@ body{
 
 @import 'topnav';
 @import 'imagearea';
+@import '_pricetag';
 
 main {
     margin: 0, auto;
@@ -41,24 +42,6 @@ main {
     padding: 10px;
 }
 
-.pricetag {
-    text-align: center;
-    padding: 50px 10px 50px 10px;
-    color: $textcolor;
-    text-shadow: .25px .25px;
-
-    &.pricetag-blue {
-        background: $headercolor;
-    }
-
-    &.pricetag-green {
-        background: $headercolor1;
-    }
-
-    &.pricetag-black {
-        background: $headercolor2;
-    }
-}
 
 .pricecenter {
     margin: 0 auto;

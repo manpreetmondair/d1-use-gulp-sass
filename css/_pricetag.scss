@@ -1,0 +1,18 @@
+.pricetag {
+    text-align: center;
+    padding: 50px 10px 50px 10px;
+    color: $textcolor;
+    text-shadow: .25px .25px;
+
+    &.pricetag-blue {
+        background: $headercolor;
+    }
+
+    &.pricetag-green {
+        background: $headercolor1;
+    }
+
+    &.pricetag-black {
+        background: $headercolor2;
+    }
+}
