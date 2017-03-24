@@ -13,7 +13,7 @@ body {
 }
 
 .imagearea {
-  background-image: url("/img/background.jpg");
+  background-image: url("./img/background.jpg");
   width: 100%;
   padding: 100px;
   color: white;
